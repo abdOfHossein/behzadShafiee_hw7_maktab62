@@ -1,0 +1,31 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link href="T1.3.css" rel="stylesheet" />
+</head>
+
+<body>
+    <div id="main">
+        <div id="parent" class="bgColorGreen">
+            <p id="parent-p">Parent node's text</p>
+            <div id="target" class="bgColorGreen">
+                <p id="target-p">The target node</p>
+                <div id="child" class="bgColorGreen">
+                    <p id="child-p">The main node's child node</p>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="styleButton">
+        <button id="btnParent">Copy Parent Text</button>
+        <button id="btnChild">Copy Child Text</button>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+<script src="T1.3.js"></script>
+
+</html>

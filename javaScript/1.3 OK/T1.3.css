@@ -1,0 +1,33 @@
+#parent {
+    width: 500px;
+    height: 400px;
+    border: 1px black solid;
+    position: relative;
+    margin: 100px auto 0;
+}
+
+#target {
+    width: 350px;
+    height: 250px;
+    border: 1px black solid;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+#child {
+    width: 200px;
+    height: 120px;
+    border: 1px black solid;
+    position: absolute;
+    top: 70px;
+    left: 30px;
+}
+
+.bgColorGreen {
+    background-color: rgb(10, 197, 10);
+}
+
+.styleButton {
+    margin: 70px 0 0 300px;
+}
